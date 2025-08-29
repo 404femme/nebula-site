@@ -31,25 +31,6 @@ export default tseslint.config(
             'react/react-in-jsx-scope': 'off', // not needed in Astro/Next/Vite
         },
     },
-    // Astro setup
-    {
-        // ...
-        overrides: [
-            {
-                files: ['*.astro'],
-                parser: 'astro-eslint-parser',
-                parserOptions: {
-                    parser: '@typescript-eslint/parser',
-                    extraFileExtensions: ['.astro'],
-                    // add this line
-                    project: './tsconfig.eslint.json',
-                },
-                // ...
-            },
-            // ...
-        ],
-    },
-    // General + TS rules
     {
         languageOptions: {
             parserOptions: {
