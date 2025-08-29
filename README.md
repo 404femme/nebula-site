@@ -77,13 +77,13 @@ Improve community engagement and accessibility:
 2. Install dependencies:
 
    ```bash
-   npm install
+   pnpm install
    ```
 3. Configure your `.env` with Discord and site credentials.
 4. Run the development server:
 
    ```bash
-   npm run dev
+   pnpm run dev
    ```
 5. Open your site at `http://localhost:3000`.
 
