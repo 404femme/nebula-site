@@ -10,7 +10,7 @@
 `--`./  `--`--`-----```-._`.___,' `--`..---'  `--`-----' `--`         
 ```
 
-**Nubula-Site** is a comprehensive website solution for Discord servers, built with **Astro + React**, designed to enhance both **admin** and **user** experiences. It serves as a centralized hub for server management, community engagement, and information sharing.
+**Nebula-Site** is a comprehensive website solution for Discord servers, built with **Astro + React**, designed to enhance both **admin** and **user** experiences. It serves as a centralized hub for server management, community engagement, and information sharing.
 
 ---
 
