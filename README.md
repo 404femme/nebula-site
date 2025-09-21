@@ -2,94 +2,98 @@
     _   __     __          __     
    / | / /__  / /_  __  __/ /___ _
   /  |/ / _ \/ __ \/ / / / / __ `/
- / /|  /  __/ /_/ / /_/ / / /_/ / 
+ / /|  /  __/ /_/ / /_/ / / /_/ /
 /_/ |_/\___/_.___/\__,_/_/\__,_/  
                                     
 ```
 
-**Nebula-Site** is a comprehensive website solution for Discord servers, built with **Next.js**, designed to enhance both **admin** and **user** experiences. It serves as a centralized hub for server management, community engagement, and information sharing.
+# Nebula-Site
+
+**Nebula-Site** is a professional-grade web platform for Discord servers, developed with **Next.js**. It delivers a centralized interface for server management, community engagement, and information dissemination, designed to optimize both administrative workflows and user interaction.
 
 ---
 
-## ⚡ Features
+## Key Capabilities
 
-### 👮‍♂️ Admin Experience
+### Administrative Tools
 
-Manage your Discord server efficiently with powerful tools:
+Empower server administrators with advanced management features:
 
-* 🔨 **User Moderation**
+* **User Moderation**
 
-    * Bans, kicks, and timeouts
-    * Automatic logging of moderation actions
-    * Nickname change tracking
+    * Execute bans, kicks, and timeouts efficiently.
+    * Maintain automated logs of moderation activities.
+    * Track nickname changes and enforce policies.
 
-* 📜 **Audit & Logs**
+* **Audit & Compliance**
 
-    * Detailed moderation logs
-    * Action history for accountability
+    * Access detailed logs of all moderation actions.
+    * Maintain action history for accountability and transparency.
 
-* 🛠 **Server Management**
+* **Server Management**
 
-    * Manage roles, permissions, and channels
-    * Automate repetitive tasks and notifications
+    * Configure roles, permissions, and channels seamlessly.
+    * Automate repetitive tasks and server notifications.
 
-* ⚙️ **Customizable Settings**
+* **Customizable Settings**
 
-    * Tailor moderation tools to your server’s needs
-    * Role-based access for moderators and admins
+    * Tailor moderation tools to your server’s operational requirements.
+    * Assign role-based access control for moderators and administrators.
 
-### 🧑‍🤝‍🧑 User Experience
+### User Engagement Features
 
-Improve community engagement and accessibility:
+Enhance community participation and streamline user access:
 
-* 📚 **Wiki & Knowledge Base**
+* **Knowledge Base & Documentation**
 
-    * Organize server guides, FAQs, and tutorials
-    * Easy-to-navigate pages for all users
+    * Publish structured guides, FAQs, and tutorials.
+    * Ensure content is easily navigable for all users.
 
-* 📜 **Rules & Guidelines**
+* **Rules & Guidelines**
 
-    * Display server rules clearly
-    * Automated reminders and acknowledgment tracking
+    * Present server policies clearly and professionally.
+    * Implement automated reminders and acknowledgment tracking.
 
-* 📰 **News & Announcements**
+* **News & Announcements**
 
-    * Post updates directly from the server
-    * Highlight important events
+    * Share updates directly from your Discord server.
+    * Highlight events and critical information prominently.
 
-* 🎉 **Interactive Features**
+* **Interactive Features**
 
-    * User profiles and badges
-    * Event calendars and participation tracking
+    * Support user profiles and achievement badges.
+    * Manage event calendars and participation tracking.
 
 ---
 
-## 🚀 Installation
+## Deployment Instructions
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/yourusername/nubula-site.git
    ```
+
 2. Install dependencies:
 
    ```bash
-   pnpm i
+   pnpm install
    ```
-3. Configure your `.env` with Discord and site credentials.
-4. Run the development server:
+
+3. Configure environment variables in `.env` with your Discord and site credentials.
+
+4. Start the development server:
 
    ```bash
    pnpm run dev
    ```
-5. Open your site at `http://localhost:3000`.
+
+5. Access the platform at `http://localhost:3000`.
 
 ---
 
-## 📄 License
+## Licensing
 
-This project is licensed under the **AGPL-3.0 License**.
+This software is distributed under the **AGPL-3.0 License**.
 
-> The GNU Affero General Public License ensures that anyone who uses, modifies, or distributes this software must also make their source code available under the same license, even if accessed over a network.
-
-
+> The GNU Affero General Public License requires that any use, modification, or distribution of this software ensures the source code remains openly available, including for network-based usage.
