@@ -7,7 +7,7 @@
                                     
 ```
 
-**Nebula-Site** is a comprehensive website solution for Discord servers, built with **Astro + React**, designed to enhance both **admin** and **user** experiences. It serves as a centralized hub for server management, community engagement, and information sharing.
+**Nebula-Site** is a comprehensive website solution for Discord servers, built with **Next.js**, designed to enhance both **admin** and **user** experiences. It serves as a centralized hub for server management, community engagement, and information sharing.
 
 ---
 
@@ -74,7 +74,7 @@ Improve community engagement and accessibility:
 2. Install dependencies:
 
    ```bash
-   pnpm install
+   pnpm i
    ```
 3. Configure your `.env` with Discord and site credentials.
 4. Run the development server:
