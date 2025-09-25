@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import type { Viewport } from 'next'
-import { Montserrat, Roboto } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import './globals.css'
 
 const montserrat = Montserrat({
@@ -8,14 +8,12 @@ const montserrat = Montserrat({
     subsets: ['latin'],
 })
 
-const roboto = Roboto({
-    weight: ['300', '400'],
-    subsets: ['latin'],
-})
-
 export const metadata: Metadata = {
     title: 'Nebula',
     description: 'Only for meow meow enjoyers',
+    icons: {
+        icon: 'icon.ico',
+    },
 }
 
 export const viewport: Viewport = {
@@ -32,9 +30,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${montserrat.className} ${roboto.className} antialiased`}>
-                {children}
-            </body>
+            <body className={`${montserrat.className} antialiased`}>{children}</body>
         </html>
     )
 }
