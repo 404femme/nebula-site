@@ -1,0 +1,16 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:3000"
+    environment:
+      - PORT=4000
+      - NODE_ENV=development
+      - WATCHPACK_POLLING=true
+      - BACKEND_UR
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    command: npm run dev
