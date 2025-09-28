@@ -6,6 +6,7 @@ services:
     ports:
       - "3000:3000"
     environment:
+      - TZ=Europe/Amsterdam
       - WATCHPACK_POLLING=true
       - BACKEND_URL
     volumes:
