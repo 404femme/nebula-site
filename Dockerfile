@@ -10,8 +10,6 @@ RUN --mount=type=cache,target=/root/.local/share/pnpm/store \
     pnpm install
 COPY . .
 
-RUN npm run build
+EXPOSE 3000 3001
 
-EXPOSE 3000
-
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "dev"]

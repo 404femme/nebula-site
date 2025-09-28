@@ -1,6 +1,16 @@
 services:
-  web:
-    extends:
-      file: docker-compose.yml
-      service: frontend
-    command: npm run start
+  frontend-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - PORT=3001
+      - WATCHPACK_POLLING=true
+      - BACKEND_URL
+    volumes:
+      - ./:/app
+      - /app/node_modules
+      - /app/.next
+    command: sh -c "npm run build && npm run start"
