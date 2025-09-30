@@ -106,7 +106,7 @@ Enhance community participation and streamline user access:
     ```bash
     docker-compose up -d --build
     ```
-
+4. Access the platform at `http://localhost`.
 ---
 
 ## Licensing
