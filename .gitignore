@@ -8,3 +8,7 @@ node_modules/
 logs
 out/
 .swc/
+
+
+#docker
+nginx/ssl/*
