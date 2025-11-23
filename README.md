@@ -68,19 +68,29 @@ Enhance community participation and streamline user access:
 
 ## Deployment Instructions
 
-1. Clone the repository:
+0. Clone the repository:
 
-   ```bash
-   git clone https://github.com/yourusername/nubula-site.git
-   ```
+    ```bash
+    git clone https://github.com/yourusername/nubula-site.git
+    ```
 
-2. Install dependencies:
+1. Go to the project's directory
+    ```bash
+    mkdir nubula-site
+    ```
+
+2. Configure environment variables in `.env` with your Discord and site credentials.
+    ```bash
+    cp .env.example .env
+    ```
+
+### Dev version: 
+
+3. Install dependencies:
 
    ```bash
    pnpm install
    ```
-
-3. Configure environment variables in `.env` with your Discord and site credentials.
 
 4. Start the development server:
 
@@ -90,6 +100,13 @@ Enhance community participation and streamline user access:
 
 5. Access the platform at `http://localhost:3000`.
 
+### Production version:
+
+3. Run docker
+    ```bash
+    docker-compose up -d --build
+    ```
+4. Access the platform at `http://localhost`.
 ---
 
 ## Licensing

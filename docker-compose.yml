@@ -1,0 +1,26 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    expose:
+      - "3000"
+    environment:
+      - PORT=3000
+      - TZ=Europe/Amsterdam
+      - WATCHPACK_POLLING=true
+      - BACKEND_URL
+    volumes:
+      - /app
+    command: sh -c "npm run build && npm run start"
+
+  nginx:
+    image: nginx:1.29.1-perl
+    depends_on:
+      - frontend
+    restart: always
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      # - ./nginx/ssl/:/etc/nginx/ssl/
+    ports:
+      - "80:80"

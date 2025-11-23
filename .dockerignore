@@ -1,0 +1,10 @@
+.idea/
+.next/
+node_modules/
+.vscode/
+.env
+
+.next
+LICENSE
+README.md
+.gitignore

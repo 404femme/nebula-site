@@ -17,7 +17,7 @@ const Page: React.FC = () => {
                     background: 'var(--bg-gradient)',
                 }}
             />
-            {/* Glassmorphism Overlay */}
+            {/* Glassmorphism Ove™rlay */}
             <div
                 className="absolute inset-0 w-full h-full backdrop-blur-sm"
                 style={{ background: 'var(--glass)' }}
